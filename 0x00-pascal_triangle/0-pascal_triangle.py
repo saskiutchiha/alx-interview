@@ -4,7 +4,7 @@ def trinagle(n):
     if n <= 0 :
         return []
 
-    for i in range(1,n+1):
+    for i in range(1,n):
         l = l + [l[i-1] + [1]]
         j = i-1
         while j > 0:
