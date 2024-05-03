@@ -16,9 +16,10 @@ def unlock(L,li,indice =0):
   """
   if L[indice] != [] :
       for key in L[indice]:
-       if li[key] != 1:
-        li[key] = 1
-        unlock(L,li,key)
+       if key < len(li): 
+        if li[key] != 1:
+         li[key] = 1
+         unlock(L,li,key)
 def canUnlockAll(L):
  """
  This function checks if all boxes can be unlocked.
