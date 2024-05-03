@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def unlock(L,li,indice =0):
   if L[indice] != [] :
       for key in L[indice]:
