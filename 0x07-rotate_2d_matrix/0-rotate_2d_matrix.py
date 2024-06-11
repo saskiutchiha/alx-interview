@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import copy as cp
 def rotate_2d_matrix(matrix):
     A = cp.deepcopy(matrix)
