@@ -2,7 +2,9 @@
 """2D matrix rotation module.
 """
 
-def rotate_2d_matrix(L)::
+def rotate_2d_matrix(L):
+     """Rotates an m by n 2D matrix in place.
+    """
     A = [i[:] for i in L]
     
     for i in range(len(A)):
