@@ -2,7 +2,7 @@
 """2D matrix rotation module.
 """
 
-def dd_matrix(L):
+def rotate_2d_matrix(L)::
     A = [i[:] for i in L]
     
     for i in range(len(A)):
