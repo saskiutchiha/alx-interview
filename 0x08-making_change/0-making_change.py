@@ -1,4 +1,4 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 
 """ Contains makeChange function"""
 
@@ -23,4 +23,3 @@ def makeChange(coins, total):
           return -1
       
    return nbr
-print(makeChange([1256, 54, 48, 16, 102], 1453))
