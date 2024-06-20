@@ -9,7 +9,7 @@ def makeChange(coins, total):
    """
    nbr = 0
    coins = sorted(coins)[::-1]
-   while (total != 0):
+   while (total <= 0):
       if total - coins[0] >=0:
          total-=coins[0]
         
