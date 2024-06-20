@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-
-""" Contains makeChange function"""
+"""Change making module.
+"""
 
 
 def makeChange(coins, total):
-  """
-    Returns: fewest number of coins needed to meet total
-        If total is 0 or less, return 0
-        If total cannot be met by any number of coins you have, return -1
-    """
+   """Determines the fewest number of coins needed to meet a given
+    amount total when given a pile of coins of different values.
+   """
    nbr = 0
    coins = sorted(coins)[::-1]
    while (total != 0):
