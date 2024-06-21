@@ -9,4 +9,3 @@ def validUTF8(data):
         if len(bin(number)[2:]) >= 8:
            return  False
     return True
-print(validUTF8([65]))
