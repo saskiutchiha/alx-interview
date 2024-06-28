@@ -64,10 +64,3 @@ def island_perimeter(grid):
                 if grid[i+1][j] == 0:
                     per+=1
     return per
-print(island_perimeter([
-        [0, 0, 0, 0, 0, 0],
-        [0, 1, 0, 0, 0, 0],
-        [0, 1, 0, 0, 0, 0],
-        [0, 1, 1, 1, 0, 0],
-        [0, 0, 0, 0, 0, 0]
-    ]))
