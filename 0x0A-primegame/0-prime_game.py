@@ -26,6 +26,8 @@ def isWinner(x, nums):
         else :
             players[1][0]+=1
         win = 0
+    if players[1][0] == players[0][0] :
+        return None
     return players[0][players[1].index(max(players[1]))]
             
 
