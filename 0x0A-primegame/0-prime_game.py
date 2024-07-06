@@ -17,8 +17,8 @@ def isWinner(x, nums):
     """
     win = 0
     players = [('Maria','Ben'),[0,0]]
-    for i in nums:
-        for j in range(1,i+1):
+    for i in range(x):
+        for j in range(1,nums[i]+1):
             if prime_number(j):
                 win +=1
         if win%2 == 0:
